@@ -13,15 +13,7 @@ return [
     | any other location as required by the application or its packages.
     |
     */
-    'providers' => [
-        ….
-        'TymonJWTAuthProvidersJWTAuthServiceProvider',
-        ],
-        'aliases' => [
-        ….
-        'JWTAuth' => 'TymonJWTAuthFacadesJWTAuth',
-        'JWTFactory' => 'TymonJWTAuthFacadesJWTFactory',
-        ],
+
         
     'name' => env('APP_NAME', 'Laravel'),
 
