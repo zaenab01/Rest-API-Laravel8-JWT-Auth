@@ -42,10 +42,11 @@ return [
         ],
 
         'api' => [
-            'driver' => 'token',
-            'provider' => 'users',
-            'hash' => false,
-        ],
+            'api' => [
+                'driver' => 'jwt',
+                'provider' => 'users',
+                'hash' => false,
+            ],
     ],
 
     /*
@@ -98,6 +99,7 @@ return [
             'table' => 'password_resets',
             'expire' => 60,
             'throttle' => 60,
+            ]
         ],
     ],
 
